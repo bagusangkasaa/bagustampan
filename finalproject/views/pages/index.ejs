@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body>
+
+<div class="container">
+  <!-- Content here -->
+
+
+ <div class="jumbotron mt-5">
+  <h1 class="display-4">Smart Home Learning System</h1>
+  <p class="lead">"Student solution for a brighter future"</p>
+  <hr class="my-4">
+  
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+<div class="card mt-4">
+	<div class="card-header">
+	Switch Button
+	</div>
+  <div class="card-body">
+
+
+<div class="row">
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body text-center">
+        <img value="0" id="lampAll" src="images/LampuMati.jpg"/>
+		<p><small><b>All</b></small></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body text-center">
+        <img value="0" id="lamp1" src="images/LampuMati.jpg"/>
+		<p><small><b>LED 1</b></small></p>
+      </div>
+    </div>
+  </div>
+   <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body text-center">
+        <img value="0" id="lamp2" src="images/LampuMati.jpg"/>
+		<p><small><b>LED 2</b></small></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body text-center">
+        <img value="0" id="lamp3" src="images/LampuMati.jpg" />
+		<p><small><b>LED 3</b></small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+	
+  </div>
+</div>
+
+<div class="card mt-4">
+	<div class="card-header">
+	Tools and Materials
+	</div>
+  <div class="card-body">
+<h5>Software</h5>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Arduino IDE
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Visual Studio Code
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    NodeJS
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Web Browser
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    MQTT Box
+  </li><li class="list-group-item d-flex justify-content-between align-items-center">
+    PRTG Network Monitor
+  </li>
+</ul>
+	
+<br>
+<h5 style="text-align: left;">Hardware</h5>
+<h5 style="text-align: right;margin-top: -25px;">Total</h5>
+
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    NodeMCU ESP8266
+    <span class="badge bg-primary rounded-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    LED
+    <span class="badge bg-primary rounded-pill">3</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    PC / Laptop
+    <span class="badge bg-primary rounded-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Resistor
+    <span class="badge bg-primary rounded-pill">3</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Relay 4 Channel
+    <span class="badge bg-primary rounded-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Power Adapter 5 V
+    <span class="badge bg-primary rounded-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Breadboard / PCB
+    <span class="badge bg-primary rounded-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Jumper Cable
+  </li>
+</ul>
+	
+  </div>
+</div>
+
+
+<div class="card mt-4">
+	<div class="card-header">
+	Topology
+	</div>
+  <div class="card-body text-center">
+	<img src="images/Perancangan Final.png"/>
+  </div>
+</div>
+
+
+<div class="card mt-4">
+	<div class="card-header">
+	Source Code
+	</div>
+  <div class="card-body">
+
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#source-code1" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Initialization
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#source-code2" aria-expanded="false" aria-controls="collapseExample">
+    Setup
+  </button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#source-code2" aria-expanded="false" aria-controls="collapseExample">
+    loop
+  </button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#source-code2" aria-expanded="false" aria-controls="collapseExample">
+    all
+  </button>
+  
+  
+</p>
+<div class="collapse" id="source-code1">
+  <div class="card card-body">
+    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  </div>
+</div>
+
+<div class="collapse" id="source-code2">
+  <div class="card card-body">
+    hahah
+  </div>
+	
+  </div>
+</div>
+</div>
+
+<div class="card mt-4">
+	<div class="card-header">
+    Practicum Module
+	</div>
+  <div class="card-body">
+     <a href="https://s.id/PerancanganSederhana">https://s.id/PerancanganSederhana</a>
+  </div>
+</div>
+
+<div class="card mt-4">
+	<div class="card-header">
+	Video
+	</div>
+  <div class="card-body">
+
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://s.id/VideoPerancangan" allowfullscreen></iframe>
+    </div>
+	
+  </div>
+</div>
+
+        
+
+    </div>
+	
+	
+	
+</body>
+
+
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+ 
+    
+    <script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

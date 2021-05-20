@@ -1,0 +1,21 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "final-project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "m.riyan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mqtt": "^4.2.6",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "querystring": "^0.2.1",
+    "socket.io": "^2.2.0"
+  }
+}
